@@ -53,15 +53,27 @@ All notable changes to this project will be documented here.
 ### Status
 ✅ Smart Wi-Fi setup is fully operational.
 
+
+---
+
+## v0.4.0 – Live Clock
+**Date:** July 2026
+
+### Added
+- Network Time Protocol (NTP) synchronization
+- Live clock using internet time
+- Automatic time updates
+- Efficient clock refresh without redrawing the entire screen
+
+### Changed
+- Header now displays the current time instead of a static value.
+
+### Status
+✅ Live clock successfully synchronized with NTP and displayed on the TFT.
+
 ---
 
 ## 🚀 Upcoming Features
-
-### v0.4.0 – Live Clock
-- Network Time Protocol (NTP) synchronization
-- Real-time clock display
-- Automatic timezone handling
-- Smooth clock updates
 
 ### v0.5.0 – Spotify Integration
 - Spotify Web API connection
