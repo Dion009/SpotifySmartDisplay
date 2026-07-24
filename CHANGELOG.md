@@ -16,6 +16,19 @@ All notable changes to this project will be documented here.
 
 ### Status
 ✅ Project successfully initialized.
+## v0.2.0 – Project Refactoring
+**Date:** July 2026
+
+### Added
+- display.cpp
+- display.h
+
+### Changed
+- Moved all display functions from `SpotifySmartDisplay.ino` into `display.cpp`.
+- Simplified the main sketch.
+
+### Status
+✅ Display works exactly as before with the new modular structure.
 
 ---
 
